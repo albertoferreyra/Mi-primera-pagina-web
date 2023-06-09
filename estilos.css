@@ -5,9 +5,37 @@
     height: 50px;
     background-color: black;
   }
+  .services {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  .service {
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+    display: inline-block;
+ }
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .service h3 {
+    margin-top: 20px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+  }  
   
   
-  .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -28,7 +56,18 @@
     align-items: center;
   }
   
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+  }
   
+  button[aria-label="¡Haz click en mi!"] {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
   li>a {
     padding: 8px 24px;
   }
@@ -97,4 +136,27 @@
   .greeting {
     text-align: center;
   
+    }
+    .services {
+      background-color: #f2f2f2;
+      padding: 40px;
+      text-align: center;
+    }
+    
+    .service {
+      margin-bottom: 30px;
+    }
+    
+    .service img {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+    }
+    
+    .service h3 {
+      margin-top: 20px;
+    }
+    
+    .service p {
+      margin-top: 10px;
     }
